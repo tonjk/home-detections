@@ -1,0 +1,17 @@
+.git
+.gitignore
+.venv
+.env
+__pycache__
+*.pyc
+*.pyo
+captured_images/
+.python-version
+README.md
+.vscode
+.idea
+.ruff_cache
+.mypy_cache
+.pytest_cache
+Dockerfile
+.dockerignore

@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 class Detector:
     """
-    YOLOv8 person detector.
+    YOLO26 person detector.
     Automatically exports and loads ONNX for faster CPU inference when available.
     """
 

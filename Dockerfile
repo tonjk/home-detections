@@ -1,5 +1,5 @@
 # ============================================================
-# Home Detection - CCTV Person Detection with YOLOv8
+# Home Detection - CCTV Person Detection with YOLO26
 # Optimized multi-stage Docker build (CPU inference)
 # ============================================================
 

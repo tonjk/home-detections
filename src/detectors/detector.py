@@ -37,3 +37,11 @@ class Detector:
     def detect(self, frame):
         """Run inference on a single frame and return results."""
         return self.model(frame, verbose=False, classes=MODEL_CLASSES, conf=MODEL_CONF, imgsz=640)
+
+    def classes(self):
+        """Return the class names."""
+        print(self.model.names)
+
+if __name__ == "__main__":
+    detector = Detector()
+    detector.classes()

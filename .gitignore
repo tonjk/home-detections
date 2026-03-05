@@ -209,3 +209,6 @@ __marimo__/
 # model weights
 *.pt
 *.onnx
+
+# MacOS
+.DS_Store
